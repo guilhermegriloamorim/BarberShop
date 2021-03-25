@@ -1,0 +1,45 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    margin: 0 auto;
+    position: relative;
+    width: 940px;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+    top: 110px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform:  uppercase;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+footer {
+    text-align: center;
+    background: url("../source/img/shared/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}

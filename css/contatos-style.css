@@ -1,0 +1,58 @@
+main {
+    margin: 0 auto;
+    width: 940px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+.label-padrao {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.btn-enviar {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0;
+    transition: 1s all;
+    width: 30%;
+}
+
+.btn-enviar:hover {
+    background-color: cyan;
+    transform: scale(1.05);
+}
+
+table {
+    margin:  20px 0 40px;   
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding:  8px 15px;
+}
