@@ -54,9 +54,15 @@ td, th {
 
 @media screen and (max-width: 480px) {
     .input-padrao  {
-        width: 90%;
+        box-sizing: border-box;
+        width: 100%;
     }
     .btn-enviar {
         width: 100%;
+    }
+
+    table {
+        width: 100%;
+        text-align: center;
     }
 }

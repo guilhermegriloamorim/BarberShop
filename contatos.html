@@ -41,7 +41,7 @@
                     <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxx-xxxxx">
 
                     <label class="label-padrao" for="menssagem">Menssagem</label>
-                    <textarea id="menssagem" cols="70" rows="10" class="input-padrao" readonly></textarea>
+                    <textarea id="menssagem" cols="70" rows="10" class="input-padrao" required></textarea>
                 </fieldset>
 
                 <fieldset class="grupo-radio">
@@ -71,6 +71,7 @@
                 <input type="submit" value="Enivar" class="btn-enviar">
             </form>
 
+            <legend class="label-padrao">Horário de Funcionamento</legend>
             <table>
                 <thead>
                     <tr>
@@ -80,16 +81,16 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Segunda</td>
-                        <td>8h ~ 20h</td>
+                        <td>Terça a Quinta</td>
+                        <td>10h ~ 19h</td>
                     </tr>
                     <tr>
-                        <td>Quarta</td>
-                        <td>8h ~ 20h</td>
+                        <td>Sexta e Sábado</td>
+                        <td>10h ~ 21h</td>
                     </tr>
                     <tr>
-                        <td>Sexta</td>
-                        <td>8h ~ 20h</td>
+                        <td>Domingos e Feriados</td>
+                        <td>10h ~ 13h</td>
                     </tr>
                 </tbody>
             </table>
